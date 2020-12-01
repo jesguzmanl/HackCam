@@ -26,7 +26,7 @@ bash hackcam.sh.sh
 ```
 ## HackCam in Terminal
 
-
+[![Screenshot-2020-12-01-23-47-35-1.png](https://i.postimg.cc/76fMXdL5/Screenshot-2020-12-01-23-47-35-1.png)](https://postimg.cc/34QvxLmh)
 
 <p>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=JasonJerry.lockphish" alt="visitor badge"/>
